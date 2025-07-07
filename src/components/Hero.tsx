@@ -13,12 +13,12 @@ const Hero = () => {
         src="/Jul_07__1553_18s_202507071642_1wmkv.mp4"
       />
       {/* Animated overlay */}
-      <div className="relative z-10 flex flex-col items-center text-center w-full px-4 mt-64">
+      <div className="relative z-10 flex flex-col items-center text-center w-full px-4 mt-[75vh]">
         <motion.h1
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut' }}
-          className="text-6xl md:text-8xl font-extrabold text-white drop-shadow-lg mb-6 font-mono tracking-wider"
+          className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-lg mb-6 font-mono tracking-wider"
         >
           Cutting-Edge Tactical Systems
         </motion.h1>
@@ -26,7 +26,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.3, ease: 'easeOut' }}
-          className="text-xl md:text-2xl text-green-400 font-mono mb-10 max-w-2xl"
+          className="text-base md:text-lg text-green-400 font-mono mb-10 max-w-2xl"
         >
           Advanced Drones, Radios, and Communication Technology
         </motion.p>
